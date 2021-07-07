@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tecztak</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+    <!-- header -->
+    <div class="header" id="header">
+
+        <div class="container header_container">
+
+            <div class="logo">
+                TECZTAK
+            </div>
+            <div class="nav">
+                <div class="nav_icon">HOME </div>
+                <div class="nav_icon">ABOUT</div>
+                <div class="nav_icon">PORTFOLIO</div>
+                <div class="nav_icon">CONTACT</div>
+            </div>
+        </div>
+    </div>
+    <!-- heade ends here -->
+
+    <!-- banner -->
+
+    <div class="banner">
+        <div class="overlay">
+            <div class="banner_text">
+                <div class="padd">
+                    <h1>BUILD WITH US</h1>
+                    <p class="ban_text">Lorem ipsum, dolor sit amet consectetur adipisicing dipisicing elit. Debitis expedita tenetur quia obcaecati eos velit elit. Debitis expedita tenetur quia obcaecati eos velit</p>
+                    <p>
+                        <button class="btn ban_btn">Start Working</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner ends here -->
+
+
+    <!-- section for services -->
+    <div class="services">
+        <h1>What We Do</h1>
+        <div class="container services_container">
+
+            <div class="service">
+                <div class="service_img">
+                    <img src="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="service image not found">
+                    
+                </div>
+
+                <div class="service_details">
+                    <div class="padd">
+                    <h1 class="ser_title">Web Design</h1>
+                    <p ser_para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odio ratione exercitationem sit eius ullam quidem nihil recusandae nesciunt, voluptas iste porro quod magni,consectetur adipisicing elit. Doloribus facere, quia accusantium neque nesciunt temporibus porro quasi magni est recusandae dolores nobis sequi labo</p>
+                    <p>
+                        <button class="service_btn">View services</button>
+                    </p>
+                
+                    </div>
+                </div>
+            </div>
+       
+
+            <div class="service">
+                <div class="service_img">
+                    <img src="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="service image not found">
+                    
+                </div>
+
+                <div class="service_details">
+                    <div class="padd">
+                    <h1 class="ser_title">App Development</h1>
+                    <p ser_para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odio ratione exercitationem sit eius ullam quidem nihil recusandae nesciunt, voluptas iste porro quod magni,consectetur adipisicing elit. Doloribus facere, quia accusantium neque nesciunt temporibus porro quasi magni est recusandae dolores nobis sequi labo</p>
+                    <p>
+                        <button class="service_btn">View services</button>
+                    </p>
+                
+                    </div>
+                </div>
+            </div>
+        
+
+
+            <div class="service">
+                <div class="service_img">
+                    <img src="https://images.pexels.com/photos/1342460/pexels-photo-1342460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"alt="service image not found">
+                    
+                </div>
+
+                <div class="service_details">
+                    <div class="padd">
+                    <h1 class="ser_title">Cloud Computing</h1>
+                    <p ser_para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odio ratione exercitationem sit eius ullam quidem nihil recusandae nesciunt, voluptas iste porro quod magni,consectetur adipisicing elit. Doloribus facere, quia accusantium neque nesciunt temporibus porro quasi magni est recusandae dolores nobis sequi labo</p>
+                    <p>
+                        <button class="service_btn">View services</button>
+                    </p>
+                
+                    </div>
+                </div>
+            </div>
+        
+   
+            <div class="service">
+                <div class="service_img">
+                    <img src="https://images.pexels.com/photos/39644/robonaut-machines-dexterous-humanoid-39644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="service image not found">
+                    
+                </div>
+
+                <div class="service_details">
+                    <div class="padd">
+                    <h1 class="ser_title">Artificial Intelligence</h1>
+                    <p ser_para>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odio ratione exercitationem sit eius ullam quidem nihil recusandae nesciunt, voluptas iste porro quod magni,consectetur adipisicing elit. Doloribus facere, quia accusantium neque nesciunt temporibus porro quasi magni est recusandae dolores nobis sequi labo</p>
+                    <p>
+                        <button class="service_btn">View services</button>
+                    </p>
+                
+                    </div>
+               </div>
+               
+               
+           
+    
+        </div>
+
+        
+    </div>
+
+
+    <!-- code for about -->
+    <div  class="about">
+        <h1 style="padding-bottom:10px">Who We Are?</h1>
+        <div class="container about_con">
+
+          <span class="start_text">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae natus eligendi, hic dolorum blanditiis iste doloremque quia maiores, fuga, totam reprehenderit tempora molestias odit fugiat dolore aut dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dicta porro consectetur saepe eligendi veritatis. Nulla veniam, quisquam beatae eos earum corporis vitae enim, repellendus nostrum velit aliquam autem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quia hic, culpa aliquid, eius minima nihil optio officiis tempora fugiat dolorum porro iusto autem, harum repellendus consequatur corrupti sunt voluptates. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit quibusdam, tenetur alias quidem aut dolor, enim aperiam minima illo nemo odio harum ex doloremque, odit iusto vitae tempora qui.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam expedita adipisci enim consequatur nemo quae libero quo numquam! Aut autem perspiciatis ullam corporis minus non reiciendis. Molestiae, aspernatur praesentium!
+        
+        </div>
+
+
+    </div>
+
+    <!-- code for highlight -->
+        <div class="highlight">
+            <div class="container high_container">
+                <div class="high_ele">
+                   <div class="high_ele_child"> 
+                        <h1 class="high_title">500+</h1>
+                        <p class="high_desc"> INNOVATIVE PROJECTS </p>
+                    </div>
+                </div>
+                <div class="high_ele">
+                    <div class="high_ele_child"> 
+                        <h1 class="high_title">80+</h1>
+                        <p class="high_desc">CLIENTS HAPPY</p>
+                    </div>
+                    
+                </div>
+                <div class="high_ele">
+                    <div class="high_ele_child"> 
+                        <h1 class="high_title">250+</h1>
+                        <p class="high_desc">WEBSITES LAUNCHED</p>
+                    </div>
+                </div>
+                <div class="high_ele">
+                    <div class="high_ele_child"> 
+                        <h1 class="high_title">50+</h1>
+                        <p class="high_desc">APPLICATIONS</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- code for qoute -->
+
+        <div class="qoute">
+            <div class="container qoute_container">
+                <h1 class="qoute_title">Start working with us right now</h1>
+                <p>
+                <button class="qoute_btn">
+                    GET A QOUTE
+                </button>
+                 </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- code for portfolio -->
+
+        <div class="portfolio">
+            
+            <div class="container portfolio_container">
+                <div class="project project1">
+                    <h1 class="project_title">Men Grooming</h1>
+                </div>
+                <div class="project project2">
+                    <h1 class="project_title">Maldives Travels</h1>
+
+                </div>
+                <div class="project project3">
+                    <h1 class="project_title">D4 Dance</h1>
+
+                </div>
+                <div class="project project4">
+                    <h1 class="project_title">Cryptcurrency</h1>
+
+                </div>
+                <div class="project project5">
+                    <h1 class="project_title">SPS sports</h1>
+
+                </div>
+                <div class="project project6">
+                    <h1 class="project_title">Chetan Library</h1>
+
+                </div>
+                <div class="project project7">
+                    <h1 class="project_title">Ankit Airlines</h1>
+
+                </div>
+                <div class="project project8">
+                    <h1 class="project_title">MZ music</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- code for footer  -->
+
+
+        <div class="footer">
+            <div class="container footer_container">
+                <div class="foot_child">
+                    <h1 class="footer_logo footer_child_1">TECZTAK</h1>
+                </div>
+                <div class="foot_child">
+                    <ul>
+                        <li class="first">Quick Links</li>
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Portflio</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="foot_child">
+                    <ul>
+                        <li class="first">Contact Us</li>
+                        <li>
+                            29 Street, plot 4578,Washington,
+                            937642,USA
+                        </li>
+                        <li>746537283</li>
+                        <li>ifo@tecztak.com</li>
+                    </ul>
+                </div>
+                <div class="foot_child footer_child_4">
+                    <div class="container social_container" ></div>
+                        <div class="social_icon si1"></div>
+                        <div class="social_icon si2"></div>
+                        <div class="social_icon si3"></div>
+                        <div class="social_icon si4"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    
+
+        <script>
+
+            window.onscroll=function(){
+                // console.log(" scroll working")
+
+                if(window.pageYOffset>10){
+                    document.getElementById("header").style.backgroundColor=" rgb(16,128,234)"
+                }
+                else {
+                    document.getElementById("header").style.backgroundColor=" transparent"
+                }
+            }
+
+
+
+        </script>
+
+
+</body>
+</html>
